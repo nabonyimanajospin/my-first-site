@@ -3,8 +3,9 @@ const changeMessageButton = document.getElementById('changeMessage');
 
 const messages = [
   'Ready to customize',
-  'Edit the files and redeploy',
+  'Edit the files and push again',
   'Your live site updates from GitHub',
+  'Netlify or Vercel rebuilds automatically',
   'Small changes are the best way to learn',
 ];
 
