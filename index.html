@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A simple starter website for learning hosting and deployment." />
+  <title>Launch Pad</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <p class="eyebrow">Learning hosting the simple way</p>
+      <h1>Build once, push changes, watch the live site update.</h1>
+      <p class="lead">
+        This tiny site is made for learning how hosting works on Netlify or Vercel.
+        Edit the text, change the colors, deploy again, and see the update online.
+      </p>
+      <div class="actions">
+        <a class="button primary" href="#steps">See the steps</a>
+        <a class="button secondary" href="#preview">What you are hosting</a>
+      </div>
+    </header>
+
+    <main>
+      <section id="preview" class="card-grid">
+        <article class="card highlight">
+          <span class="card-label">Project type</span>
+          <h2>Static website</h2>
+          <p>Pure HTML, CSS, and a little JavaScript. Perfect for learning the upload and deploy flow.</p>
+        </article>
+
+        <article class="card">
+          <span class="card-label">Best for beginners</span>
+          <h2>Fast to edit</h2>
+          <p>Change one line in <strong>index.html</strong> or <strong>styles.css</strong>, then redeploy.</p>
+        </article>
+
+        <article class="card">
+          <span class="card-label">Hosting choice</span>
+          <h2>Netlify or Vercel</h2>
+          <p>Both can publish this project directly from GitHub with automatic updates.</p>
+        </article>
+      </section>
+
+      <section class="content-block">
+        <div>
+          <p class="section-label">Why this project works</p>
+          <h2>It teaches the exact workflow you will repeat later.</h2>
+        </div>
+        <p>
+          The goal is not to build a large app yet. The goal is to understand deployment, live updates,
+          and where your files go when a website is hosted online.
+        </p>
+      </section>
+
+      <section id="steps" class="steps">
+        <p class="section-label">Your learning path</p>
+        <ol>
+          <li>Edit this page locally.</li>
+          <li>Save your changes.</li>
+          <li>Push the project to GitHub.</li>
+          <li>Connect GitHub to Netlify or Vercel.</li>
+          <li>Change the text again and redeploy.</li>
+        </ol>
+      </section>
+
+      <section class="tip">
+        <p class="section-label">Next time</p>
+        <p>
+          When you are ready, we can build a more serious project with a backend, database, authentication,
+          and deployment to a platform that supports full-stack apps.
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span id="status">Ready to customize</span>
+      <button id="changeMessage" type="button">Change the message</button>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
